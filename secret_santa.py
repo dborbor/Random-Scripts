@@ -49,7 +49,7 @@ def secret_santa(names_emails, couples):
             recipient = names[(i + 1) % len(names)]
             email_subject = "Amigo Secreto Asignado !"
             if recipient == "David":
-                email_body = f"Jo jo jo! Eres el amigo secreto de (su merce') EL (Don David) {recipient} !"
+                email_body = f"Jo jo jo! Eres el amigo secreto de (su merce') EL (Don Carlos) {recipient} !"
             else:
                 email_body = f"Jo jo jo! Eres el amigo secreto de {recipient} !"
 
